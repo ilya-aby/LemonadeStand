@@ -173,6 +173,9 @@
                                         <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                             <rect key="frame" x="290" y="58" width="30" height="21"/>
                                         </variation>
+                                        <connections>
+                                            <action selector="buyLemonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Txl-Wj-fzz"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WO8-W4-nBl">
                                         <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -182,6 +185,9 @@
                                         <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                             <rect key="frame" x="290" y="87" width="30" height="21"/>
                                         </variation>
+                                        <connections>
+                                            <action selector="buyIcePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0EM-RT-7Nf"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jav-5h-URO">
                                         <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -191,6 +197,9 @@
                                         <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                             <rect key="frame" x="221" y="58" width="30" height="21"/>
                                         </variation>
+                                        <connections>
+                                            <action selector="sellLemonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bmZ-fc-xAw"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bpA-3Y-Kh8">
                                         <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -200,6 +209,9 @@
                                         <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                             <rect key="frame" x="221" y="87" width="30" height="21"/>
                                         </variation>
+                                        <connections>
+                                            <action selector="sellIcePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nIj-CW-ENj"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.84705889225006104" green="0.95294123888015747" blue="0.85490202903747559" alpha="1" colorSpace="deviceRGB"/>
@@ -294,6 +306,9 @@
                                         <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                             <rect key="frame" x="290" y="58" width="30" height="21"/>
                                         </variation>
+                                        <connections>
+                                            <action selector="addLemonToMixPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NgY-Oe-L0b"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GWo-gI-bMZ">
                                         <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -303,6 +318,9 @@
                                         <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                             <rect key="frame" x="290" y="87" width="30" height="21"/>
                                         </variation>
+                                        <connections>
+                                            <action selector="addIceToMixPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MlP-Aw-QEB"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qek-mE-dbk">
                                         <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -312,6 +330,9 @@
                                         <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                             <rect key="frame" x="221" y="58" width="30" height="21"/>
                                         </variation>
+                                        <connections>
+                                            <action selector="removeLemonFromMixPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2fI-09-aaT"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bsd-0s-XxR">
                                         <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -321,6 +342,9 @@
                                         <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                             <rect key="frame" x="221" y="87" width="30" height="21"/>
                                         </variation>
+                                        <connections>
+                                            <action selector="removeIceFromMixPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZJQ-6x-SOp"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.76862752437591553" green="0.93725496530532837" blue="0.82745105028152466" alpha="1" colorSpace="deviceRGB"/>

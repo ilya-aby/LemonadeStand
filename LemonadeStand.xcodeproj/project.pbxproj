@@ -22,6 +22,7 @@
 		0935DC4D19FDA634008B7E58 /* warm.png in Resources */ = {isa = PBXBuildFile; fileRef = 0935DC4319FDA634008B7E58 /* warm.png */; };
 		0935DC4E19FDA634008B7E58 /* Warm@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0935DC4419FDA634008B7E58 /* Warm@2x.png */; };
 		0935DC4F19FDA634008B7E58 /* Warm@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0935DC4519FDA634008B7E58 /* Warm@3x.png */; };
+		0935DC5119FDAB88008B7E58 /* LemonBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0935DC5019FDAB88008B7E58 /* LemonBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		0935DC4319FDA634008B7E58 /* warm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = warm.png; sourceTree = "<group>"; };
 		0935DC4419FDA634008B7E58 /* Warm@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Warm@2x.png"; sourceTree = "<group>"; };
 		0935DC4519FDA634008B7E58 /* Warm@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Warm@3x.png"; sourceTree = "<group>"; };
+		0935DC5019FDAB88008B7E58 /* LemonBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LemonBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				0935DC1B19FD9BB5008B7E58 /* AppDelegate.swift */,
 				0935DC1D19FD9BB5008B7E58 /* ViewController.swift */,
 				0935DC1F19FD9BB5008B7E58 /* Main.storyboard */,
+				0935DC5019FDAB88008B7E58 /* LemonBrain.swift */,
 				0935DC2219FD9BB5008B7E58 /* Images.xcassets */,
 				0935DC2419FD9BB5008B7E58 /* LaunchScreen.xib */,
 				0935DC1919FD9BB5008B7E58 /* Supporting Files */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0935DC5119FDAB88008B7E58 /* LemonBrain.swift in Sources */,
 				0935DC1E19FD9BB5008B7E58 /* ViewController.swift in Sources */,
 				0935DC1C19FD9BB5008B7E58 /* AppDelegate.swift in Sources */,
 			);
