@@ -417,7 +417,7 @@
                                             <rect key="frame" x="50" y="36" width="300" height="82"/>
                                         </variation>
                                     </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mild@3x.png" translatesAutoresizingMaskIntoConstraints="NO" id="WOJ-ql-1Hm">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mild" translatesAutoresizingMaskIntoConstraints="NO" id="WOJ-ql-1Hm">
                                         <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                         <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                             <rect key="frame" x="329" y="12" width="35" height="35"/>
@@ -484,6 +484,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Mild@3x.png" width="240" height="240"/>
+        <image name="Mild" width="60" height="60"/>
     </resources>
 </document>

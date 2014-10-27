@@ -43,13 +43,24 @@ class ViewController: UIViewController {
     }
 
     @IBAction func startButtonPressed(sender: UIButton) {
-        println("Starting Day")
         
-        lemonStand.runDay()
+        if(lemonStand.lemonsInMix <= 0) {
+            
+            showAlertWithText(header: "Whoops", message: "Can't make lemonade without breaking some lemons")
+            
+        } else if (lemonStand.iceInMix <= 0) {
+            
+            showAlertWithText(header: "Whoops", message: "Nobody wants to buy straight lemon juice, bro.")
+            
+        } else {
+            
+            lemonStand.runDay()
+            
+            // After day is done, update results and get new weather for the next day
+            lemonStand.updateWeather()
+            updateMainView()
+        }
         
-        // After day is done, update results and get new weather for the next day
-        lemonStand.updateWeather()
-        updateMainView()
     }
     
     @IBAction func buyLemonPressed(sender: UIButton) {
